@@ -7,6 +7,7 @@ body {
 }
 
 main {
+    background-color: rgb(255, 255, 255);
     padding: 30px;
 }
 
@@ -32,4 +33,22 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+.input {
+    padding: 3rem;
+    display:grid;grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    align-items: center;
+}
+#center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#even-pic{
+    height: 200px;
+}
+#odd-pic{
+    height: 220px;
+    
 }
