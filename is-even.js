@@ -16,4 +16,5 @@ export function evenOdd(num1) {
         return ('Odd!');
     }
 }
-
+// const hidden = document.getElementsByClassName('hidden');
+// const hidden2 = document.getElementsByClassName('hidden2');

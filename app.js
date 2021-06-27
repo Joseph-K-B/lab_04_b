@@ -1,12 +1,14 @@
 // import functions
 // import { evenOdd } from './is-even';
 
-import { evenOdd } from "./is-even.js";
+import { evenOdd } from './is-even.js';
 
 // import { isOddEven } from "./is-even.js";
 const input = document.getElementById('even-odd');
 const output = document.getElementById('answer');
 const submitBtn = document.getElementById('input-btn');
+const hidden = document.getElementsByClassName('hidden');
+const hidden2 = document.getElementsByClassName('hidden2');
 // reference needed DOM elements
 
 submitBtn.addEventListener('click', () =>{
@@ -16,6 +18,25 @@ submitBtn.addEventListener('click', () =>{
     console.log(output);
     output.textContent = answer1;
 });
+
+
+// submitBtn.addEventListener('click', () => {
+//     hidden[0].style.display = 'block';
+// });
+ 
+// submitBtn.addEventListener('click', () =>{
+//     hidden2[0].style.display = 'block';
+// });
+
+submitBtn.addEventListener('click', () => {
+    hidden[0].style.display = 'block';
+});
+
+submitBtn.addEventListener('click', () =>{
+    hidden2[0].style.display = 'block';
+});
+
+
 // set event listeners 
   // get user input(s)
   // do any needed work with the value(s)
