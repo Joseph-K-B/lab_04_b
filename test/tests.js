@@ -1,11 +1,16 @@
 // IMPORT MODULES under test here:
-// import {isOddEven} from '../is-even.js';
-// // import { add } from '../calculator.js';
+import { evenOdd } from '../is-even.js';
 
-// const test = QUnit.test;
+const test = QUnit.test;
 
 // // name your test by what it is testing
+test ('test-Odd-Even', (expect) => {
+    const expected = 'even' ;
+    const actual = evenOdd(10);
+    expect.equal(actual, expected);
+});
 // test('time to test a function', (expect) => {
+
 //     //Arrange
 //     // Set up your arguments and expectations
 //     const expected = true;

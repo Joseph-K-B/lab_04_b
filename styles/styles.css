@@ -36,7 +36,8 @@ footer {
 }
 .input {
     padding: 3rem;
-    display:grid;grid-template-columns: 3fr 3fr 3fr;
+    display:grid;
+    grid-template-columns: 225px 200px 300px;
     justify-content: center;
     align-items: center;
 }
