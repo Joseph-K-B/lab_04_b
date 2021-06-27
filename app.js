@@ -17,23 +17,26 @@ submitBtn.addEventListener('click', () =>{
     const answer1 = evenOdd(even);
     console.log(output);
     output.textContent = answer1;
+//     if (even) {
+//         return output.getElementsByClassName = hidden};
+//     else {
+//       return output.getElementsByClassName = hidden2};
 });
 
 submitBtn.addEventListener('click', () => {
     hidden[0].style.display = 'block';
 });
  
-// submitBtn.addEventListener('click', () =>{
-//     hidden2[0].style.display = 'block';
-// });
+
+submitBtn.addEventListener('click', () =>{
+    hidden2[0].style.display = 'block';
+});
 
 // submitBtn.addEventListener('click', () => {
 //     thumbsUp[0].style.display = 'block';
 // });
 
-submitBtn.addEventListener('click', () =>{
-    hidden2[0].style.display = 'block';
-});
+
 
 
 
