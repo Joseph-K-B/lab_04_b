@@ -1,8 +1,8 @@
 // import functions
 // import { evenOdd } from './is-even';
-
+import { oddEven } from './is-even.js';
 import { evenOdd } from './is-even.js';
-
+//import { thumbsUp} from './is-even.js';
 // import { isOddEven } from "./is-even.js";
 const input = document.getElementById('even-odd');
 const output = document.getElementById('answer');
@@ -19,22 +19,24 @@ submitBtn.addEventListener('click', () =>{
     output.textContent = answer1;
 });
 
-
-// submitBtn.addEventListener('click', () => {
-//     hidden[0].style.display = 'block';
-// });
+submitBtn.addEventListener('click', () => {
+    hidden[0].style.display = 'block';
+});
  
 // submitBtn.addEventListener('click', () =>{
 //     hidden2[0].style.display = 'block';
 // });
 
-submitBtn.addEventListener('click', () => {
-    hidden[0].style.display = 'block';
-});
+// submitBtn.addEventListener('click', () => {
+//     thumbsUp[0].style.display = 'block';
+// });
 
 submitBtn.addEventListener('click', () =>{
     hidden2[0].style.display = 'block';
 });
+
+
+
 
 
 // set event listeners 

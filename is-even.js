@@ -16,5 +16,19 @@ export function evenOdd(num1) {
         return ('Odd!');
     }
 }
+
+export function oddEven(num1){
+    if (num1 % 2 !== 0){
+        return ('Odd!');
+    }
+}
+
+// export function thumbsUp(num1) {
+//     if (num1 % 2 === 0){
+//         return (hidden);
+//     }
+//     else {
+//         return (hidden2);
+//     }}
 // const hidden = document.getElementsByClassName('hidden');
 // const hidden2 = document.getElementsByClassName('hidden2');
