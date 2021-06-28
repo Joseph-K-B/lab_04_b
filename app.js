@@ -6,9 +6,9 @@ import { evenOdd } from './is-even.js';
 //import { thumbsUp} from './is-even.js';
 // import { isOddEven } from "./is-even.js";
 const input = document.getElementById('even-odd');
-const output = document.getElementById('answer');
+// const output = document.getElementById('answer');
 const submitBtn = document.getElementById('input-btn');
-const hidden = document.getElementsByClassName('hidden');
+// const hidden = document.getElementsByClassName('hidden');
 // const hidden2 = document.getElementsByClassName('hidden2');
 // reference needed DOM elements
 
