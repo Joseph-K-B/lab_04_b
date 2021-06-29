@@ -15,7 +15,7 @@ const submitBtn = document.getElementById('input-btn');
 submitBtn.addEventListener('click', () =>{
     // console.log(typeof(input.value));
     const even = Number(input.value);
-    const answer1 = evenOdd(even);
+    evenOdd(even);
     // console.log(output);
     // output.textContent = answer1;
 

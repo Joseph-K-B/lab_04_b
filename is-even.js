@@ -13,12 +13,19 @@ const output = document.getElementById('answer');
 // const hidden2 = document.getElementsByClassName('hidden2');
 
 export function evenOdd(num1) {
+    for (var i = 0; i < num1.Number; i++){
+        var evenOddPic = 'pic' + num1[i];
+        var image = document.getElementsById('evenOddPic');
+    }
     if (num1 % 2 === 0){
-        return (output.textContent = 'Even!', (hidden[0].style.display = 'block'));
+        return (output.textContent = 'Even!', (hidden[0].style.display = 'block'),
+        (hidden[1].style.display = 'hidden'));
     }
     // if (num1 % 2 !== 0){
     else 
-        return (output.textContent = 'Odd!', (hidden[1].style.display = 'block'));
+        return (output.textContent = 'Odd!', (hidden[1].style.display = 'block'),
+        (hidden[0].style.display = 'hidden')
+        );
 }
 
 // export function evenOdd2(num1) {
