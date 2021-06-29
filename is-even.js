@@ -13,14 +13,14 @@ const output = document.getElementById('answer');
 // const hidden2 = document.getElementsByClassName('hidden2');
 
 export function evenOdd(num1) {
-
     if (num1 % 2 === 0){
         return (output.textContent = 'Even!', (hidden[0].style.display = 'block'));
     }
-    else if (num1 % 2 !== 0){
+    // if (num1 % 2 !== 0){
+    else 
         return (output.textContent = 'Odd!', (hidden[1].style.display = 'block'));
-    }
 }
+
 // export function evenOdd2(num1) {
 //     if (num1 % 2 === 0){
 //         return (hidden);
