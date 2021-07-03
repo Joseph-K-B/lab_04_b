@@ -1,3 +1,12 @@
+header {
+    background-color: #0bc3b1;
+    height: 110px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 body {        
     font-family: 'Titillium Web', sans-serif;
@@ -7,27 +16,14 @@ body {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: darkslategray;
     padding: 30px;
 }
 
-header {
-    background-color: #0bc3b1;
-    height: 110px;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    height: 100%;
-    object-fit: contain;
-}
-
 h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-weight:bolder;
+    font-size: 3rem;
+    box-shadow: 5px 5px 5px black;
 }
 
 footer {
