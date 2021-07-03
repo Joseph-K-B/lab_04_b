@@ -1,3 +1,5 @@
+
+
 header {
     background-color: #0bc3b1;
     height: 110px;
@@ -32,6 +34,7 @@ footer {
     color: white;
 }
 button {background-color: black;
+border: solid 3px white;
 color: white;
 border-radius: 20px;
 display: flex;
